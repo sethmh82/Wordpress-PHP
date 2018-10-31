@@ -10,3 +10,11 @@
 </td>
 </tr>
 </table>
+
+  
+  
+  <p><br /><a href="https://statisticbrain.com"><img class="aligncenter size-full wp-image-17589" src="https://www.statisticbrain.com/wp-content/uploads/2017/08/Screen-Shot-2018-05-08-at-5.14.20-PM.png" alt="subscribe to statistic" width="154" height="40" /></a></p>
+</td>
+</tr>
+</table>
+</div>
