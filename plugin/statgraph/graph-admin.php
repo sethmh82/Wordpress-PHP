@@ -1,7 +1,7 @@
 <?php query("UPDATE ".$wpdb->prefix."statgraph_db SET f_visits = 0");?>
 <div id="message" class="updated fade">
  
-StatGraph Stats <strong>Reseted</strong>.</div>
+StatGraph Data <strong>Wipe</strong>.</div>
 <div class="wrap">
 <h2>StatGraph Admin</h2>
 <?php
@@ -13,7 +13,5 @@ foreach($results as $result)
 }
 ?>
  
-<a href="?page=<?php echo $_GET['page']; ?>&graph-counter=reset">
-    Reset Stats
-</a>
+<a href="?page=<?php echo $_GET['page']; ?>&statgraph_db=reset">WIPE DATA</a>
 </div>
