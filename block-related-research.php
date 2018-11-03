@@ -1,6 +1,6 @@
 
-<?php if( get_field('rel_research') ): ?>
-<?php $link_rows = get_field('rel_research');
+<?php if( get_field('rel_research') ):
+$link_rows = get_field('rel_research');
 // START A FOR LOOP TO GO THROUGH EACH ROW	
 for ($irr = 0; $irr < count($link_rows); $irr++) {
 
@@ -15,7 +15,7 @@ echo'
 <i style="font-size: 15px !important;  color:#232323;" class="fa fa-arrow-circle-left" aria-hidden="true"></i>' . <?php the_field('link_url')[1] ?> . '</a></td>
 </tr></table>';
 }
-<?php endif; ?>	
+ endif; ?>	
 
 
 
